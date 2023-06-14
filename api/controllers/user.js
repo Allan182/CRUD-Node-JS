@@ -1,5 +1,6 @@
 import { db } from "../database.js";
 
+
 export const getUsers = (_, response) => {
     const qry = "SELECT * FROM usuarios";
 
