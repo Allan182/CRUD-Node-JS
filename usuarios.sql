@@ -12,6 +12,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -40,9 +41,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `fone`, `data_nascimento`) VALUES
-(10, 'Allanzin', 'allan.furlani@hotmail.co', '(27)998859003', '2002-08-23'),
-(11, 'admin', '', '', ''),
-(13, '123', '123@123', '321', '12121-02-21');
+(10, 'xxxx', 'xxxx', '(xxx)xxxx', 'xxxx'),
+(11, 'admin', '', '', '');
 
 --
 -- Índices para tabelas despejadas
